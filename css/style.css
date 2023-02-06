@@ -222,6 +222,19 @@ header{
 .find-me{
     padding-left: 6.25rem;
 }
+/***************************
+        FOOTER-TOP
+****************************/
+.footer-top{
+    align-items: center;
+    padding: 3.125rem 6.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    text-align: center;
+}
+/***************************
+           FOOTER
+****************************/
 /*@media screen and (min-width: 768px){
 
 }
