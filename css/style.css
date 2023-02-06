@@ -9,12 +9,6 @@
 ul{
     list-style: none;
 }
-.debug{
-    background: silver;
-    width: 200px;
-    height: 50px;
-    border: 2px dashed red;
-}
 body{
     font-family: fantasy;
 }
@@ -90,11 +84,6 @@ header{
     width: 100%;
     padding: 1.25rem 4.375rem;
 }
-.col-debug{
-    border-radius: 1.875rem;
-    border: 1px dashed red;
-    height: 500px;
-}
 .column{
     flex-direction: column;
     gap: 1.875rem;
@@ -114,7 +103,7 @@ header{
     align-items: center;
     padding: 3.125rem 6.25rem;
     font-size: 1.25rem;
-    line-height: 1.875rem;
+    line-height: 1.5625rem;
     text-align: center;
 }
 .products h2{
@@ -154,10 +143,10 @@ header{
 /***************************
       SECTION PLANNING
 ****************************/
-.planning{
+#planning{
     background: #9792e4;
 }
-.planning img{
+#planning img{
     width: 100%;
 }
 #box-plan{
@@ -173,9 +162,17 @@ header{
     padding: .625rem;
 }
 /***************************
-    
+    SECTION TESTIMONIALS
 ****************************/
-
+#testimonials{
+    height: 62.5rem;
+    border: 1px dashed red;
+    align-items: center;
+    padding: 3.125rem 6.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    text-align: center;
+}
 /***************************
     
 ****************************/
