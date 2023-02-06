@@ -23,26 +23,49 @@ ul{
 }
 .between{
     justify-content: space-between;
+    align-items: center;
 }
 /***************************
           HEADER
 ****************************/
 header{
     background: #0084fd;
-    color: white;
+    color: #ffffff;
 }
 #container{
-    padding: 0 1.875rem;
+    padding: .625rem 1.875rem;
+}
+#burger{
+    font-size: 2rem;
+}
+#head-nav{
+    display: none;
 }
 #menu{
-    gap: 20px;
-    line-height: 50px;
+    gap: 1.25rem;
+    line-height: 3.125rem;
 }
 #menu li a{
-    background-color: #ffffff;
     text-decoration: none;
-    border-radius: 30px;
-    padding: 5px 10px;
+    color: #ffffff;
+}
+#menu li:last-child a{
+    background-color: #ffffff;
+    border-radius: 1.875rem;
+    padding: .3125rem .625rem;
+    color: #000;
+}
+
+@media screen and (min-width: 992px){
+    #head-nav{
+        display: block;
+    }
+    #burger{
+        display: none;
+    }
+    .between{
+        justify-content: space-around;
+    }
 }
 /***************************
     
