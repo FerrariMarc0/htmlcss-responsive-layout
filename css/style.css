@@ -235,6 +235,13 @@ header{
 /***************************
            FOOTER
 ****************************/
+footer{
+    background: #333333;
+    color: #ffffff;
+    line-height: 1.5625rem;
+    text-align: center;
+    padding: 1.25rem 6.25rem;
+}
 /*@media screen and (min-width: 768px){
 
 }
