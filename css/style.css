@@ -6,6 +6,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
+.debug{
+    background: silver;
+    width: 200px;
+    height: 50px;
+    border: 2px dashed red;
+}
+/***************************
+        UTILITY
+****************************/
+.flex{
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+}
+/***************************
+          HEADER
+****************************/
+header{
+    background: #0084fd;
+    color: white;
+}
+#container{
+    padding: 0 1.875rem;
+}
+#menu{
+    gap: 20px;
+    line-height: 50px;
+}
+#menu li a{
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
 /***************************
     
 ****************************/
@@ -21,7 +59,9 @@
 /***************************
     
 ****************************/
+/*@media screen and (min-width: 768px){
 
-/***************************
-    
-****************************/
+}
+@media screen and (min-width: 992px){
+
+}*/
