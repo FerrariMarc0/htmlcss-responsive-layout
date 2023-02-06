@@ -193,12 +193,21 @@ header{
 .bob{
     background-image: url(../img/testimonial3.jpg);
 }
-#gap{
-    gap: 1.875rem;
-}
 /***************************
-    
+    SECTION TESTIMONIALS
 ****************************/
+.benefits{
+    border-radius: 1.875rem;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+}
+.box-benefits{
+    padding: 1.25rem;
+}
+.box-benefits h1{
+    text-align: center;
+}
 /*@media screen and (min-width: 768px){
 
 }
