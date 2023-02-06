@@ -208,6 +208,20 @@ header{
 .box-benefits h1{
     text-align: center;
 }
+/***************************
+    SECTION ABOUT-US
+****************************/
+.about-us{
+    padding: 3.125rem 6.25rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.barba{
+    background-image: url(../img/about.jpg);
+}
+.find-me{
+    padding-left: 6.25rem;
+}
 /*@media screen and (min-width: 768px){
 
 }
