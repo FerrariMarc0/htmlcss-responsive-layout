@@ -15,6 +15,9 @@ ul{
     height: 50px;
     border: 2px dashed red;
 }
+body{
+    font-family: fantasy;
+}
 /***************************
         UTILITY
 ****************************/
@@ -55,7 +58,9 @@ header{
     padding: .3125rem .625rem;
     color: #000;
 }
-
+/***************************
+     RESPONSIVE-HEADER
+****************************/
 @media screen and (min-width: 992px){
     #head-nav{
         display: block;
@@ -68,8 +73,81 @@ header{
     }
 }
 /***************************
-    
+            MAIN
 ****************************/
+.demo, #img-phone, .column{
+    background: #b5ddff;
+    gap: 1.875rem;
+}
+.demo{
+    align-items: center;
+    padding: 3.125rem 6.25rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    font-size: 1.25rem;
+}
+.col{
+    width: 100%;
+    padding: 1.25rem 4.375rem;
+}
+.col-debug{
+    border-radius: 1.875rem;
+    border: 1px dashed red;
+}
+.column{
+    flex-direction: column;
+}
+
+#img-phone{
+    border-bottom-left-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+}
+#img-phone img{
+    width: 80%;
+    margin: auto;
+}
+.products{
+    border-radius: 1.875rem;
+    align-items: center;
+    padding: 3.125rem 6.25rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: center;
+}
+.products h2{
+    color: #0084fd;
+}
+.products i{
+    font-size: 5rem;
+    color: #0084fd;
+}
+
+@media screen and (min-width: 768px){
+    .col{
+        width: calc(100% / 3);
+    }
+    .col:first-child{
+        width: calc((100% / 3) * 2);
+    }
+    #img-phone img{
+    width: 80%;
+    margin: 0;
+    
+}
+    .demo{
+        padding: 1.25rem 6.25rem 1.25rem 1.25rem;
+    }
+    .col{
+        flex-direction: row;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 992px){
+    .column{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
 
 /***************************
     
